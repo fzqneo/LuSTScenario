@@ -17,11 +17,17 @@ Author: Lara CODECA [codeca@gmail.com]
     <output>
         <summary-output value="dua.static.summary.xml"/>
         <tripinfo-output value="dua.static.tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true" />
     </output>
 
     <time>
-        <begin value="0"/>
+        <begin value="0" />
         <step-length value="1"/>
+        <!--
+        <begin value="25200"/>
+        <step-length value="1"/>
+        <end value="32400" />
+        -->
     </time>
 
     <processing>
